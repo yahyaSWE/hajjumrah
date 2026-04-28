@@ -43,8 +43,8 @@ export function TaskItem({ task, onToggle }: TaskItemProps) {
     dueLabel = 'Avklarad';
     dueColor = COLORS.success;
   } else if (diffDays < 0) {
-    dueLabel = `${Math.abs(diffDays)} dagar försenad`;
-    dueColor = COLORS.error;
+    dueLabel = 'Att göra nu';
+    dueColor = COLORS.accent;
   } else if (diffDays === 0) {
     dueLabel = 'Idag';
     dueColor = COLORS.accent;

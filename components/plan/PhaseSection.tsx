@@ -6,7 +6,7 @@ import { COLORS, SPACING, BORDER_RADIUS } from '@/lib/constants';
 import type { TaskPhase } from '@/hooks/usePreparationTasks';
 
 const PHASE_ICONS: Record<TaskPhase, string> = {
-  overdue: 'alert-circle',
+  overdue: 'flash',
   this_week: 'time',
   '2_4_weeks': 'calendar',
   '1_2_months': 'calendar-outline',
@@ -15,7 +15,7 @@ const PHASE_ICONS: Record<TaskPhase, string> = {
 };
 
 const PHASE_COLORS: Record<TaskPhase, string> = {
-  overdue: COLORS.error,
+  overdue: COLORS.accent,
   this_week: COLORS.accent,
   '2_4_weeks': COLORS.text,
   '1_2_months': COLORS.textSecondary,

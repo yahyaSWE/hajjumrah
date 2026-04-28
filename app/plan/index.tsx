@@ -72,8 +72,8 @@ export default function PlanDashboard() {
             <>
               <View style={styles.statDivider} />
               <View style={styles.statBox}>
-                <ThemedText variant="h1" color={COLORS.error}>{stats.overdue}</ThemedText>
-                <ThemedText variant="caption" color={COLORS.textSecondary}>Försenade</ThemedText>
+                <ThemedText variant="h1" color={COLORS.accent}>{stats.overdue}</ThemedText>
+                <ThemedText variant="caption" color={COLORS.textSecondary}>Att göra</ThemedText>
               </View>
             </>
           )}

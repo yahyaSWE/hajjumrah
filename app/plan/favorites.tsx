@@ -46,13 +46,18 @@ export default function FavoritesScreen() {
               const sectionSlug = page.subsection?.section?.slug;
               const subsectionSlug = page.subsection?.slug;
 
+              // Shared-sektionen har inget /shared/-prefix i URL:en
+              const path = sectionSlug === 'shared'
+                ? `/${subsectionSlug}`
+                : `/${sectionSlug}/${subsectionSlug}`;
+
               return (
                 <TouchableOpacity
                   key={page.id}
                   style={styles.contentCard}
                   onPress={() => {
                     if (sectionSlug && subsectionSlug) {
-                      router.push(`/${sectionSlug}/${subsectionSlug}` as any);
+                      router.push(path as any);
                     }
                   }}
                 >

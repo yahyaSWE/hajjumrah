@@ -21,7 +21,7 @@ export function ContentRenderer({ content }: ContentRendererProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.background,
+    backgroundColor: 'transparent',
   },
   contentContainer: {
     padding: SPACING.lg,

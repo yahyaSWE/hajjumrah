@@ -33,7 +33,7 @@ function getPhase(dueDate: string, isCompleted: boolean): TaskPhase {
 }
 
 const PHASE_LABELS: Record<TaskPhase, string> = {
-  overdue: 'Försenade',
+  overdue: 'Att göra',
   this_week: 'Denna vecka',
   '2_4_weeks': '2–4 veckor',
   '1_2_months': '1–2 månader',

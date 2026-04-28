@@ -4,6 +4,7 @@ import { ContentRenderer } from './ContentRenderer';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { ErrorView } from '@/components/ui/ErrorView';
 import { FavoriteButton } from '@/components/ui/FavoriteButton';
+import { BackgroundPattern } from '@/components/ui/BackgroundPattern';
 import { COLORS, SPACING } from '@/lib/constants';
 
 interface ContentScreenProps {
@@ -21,22 +22,28 @@ export function ContentScreen({ sectionSlug, subsectionSlug }: ContentScreenProp
   const combinedContent = data?.map((page) => `## ${page.title}\n\n${page.body}`).join('\n\n---\n\n') ?? '';
 
   if (!combinedContent) {
-    return <ContentRenderer content="*Innehåll kommer snart...*" />;
+    return (
+      <BackgroundPattern>
+        <ContentRenderer content="*Innehåll kommer snart...*" />
+      </BackgroundPattern>
+    );
   }
 
   return (
-    <View style={styles.container}>
-      {firstPageId && (
-        <View style={styles.favoriteRow}>
-          <FavoriteButton
-            itemType="content_page"
-            itemId={firstPageId}
-            size={24}
-          />
-        </View>
-      )}
-      <ContentRenderer content={combinedContent} />
-    </View>
+    <BackgroundPattern>
+      <View style={styles.container}>
+        {firstPageId && (
+          <View style={styles.favoriteRow}>
+            <FavoriteButton
+              itemType="content_page"
+              itemId={firstPageId}
+              size={24}
+            />
+          </View>
+        )}
+        <ContentRenderer content={combinedContent} />
+      </View>
+    </BackgroundPattern>
   );
 }
 

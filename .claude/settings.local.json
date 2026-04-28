@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template tabs)",
+      "Read(//c/Users/Jbl/Desktop/Claude/**)",
+      "Bash(npx create-expo-app@latest hajj-umrah-temp --template tabs)",
+      "Bash(cp -r \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\hajj-umrah-temp/\"* \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\Hajj-umrah/\")",
+      "Bash(cp \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\hajj-umrah-temp/.gitignore\" \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\Hajj-umrah/\")",
+      "Bash(npm install:*)",
+      "Bash(curl -sL \"https://github.com/google/fonts/raw/main/ofl/amiri/Amiri-Regular.ttf\" -o Amiri-Regular.ttf)",
+      "Bash(curl -sL \"https://github.com/google/fonts/raw/main/ofl/amiri/Amiri-Bold.ttf\" -o Amiri-Bold.ttf)",
+      "Bash(curl -sL \"https://github.com/google/fonts/raw/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf\" -o Inter-Variable.ttf)",
+      "Bash(ls -la *.ttf)",
+      "Bash(npx tsc:*)",
+      "Bash(npx expo:*)",
+      "WebFetch(domain:aiwhkwizqobvavgrcqbb.supabase.co)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://aiwhkwizqobvavgrcqbb.supabase.co/rest/v1/sections?select=id&limit=1\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\" -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\")",
+      "Bash(curl -s \"https://aiwhkwizqobvavgrcqbb.supabase.co/rest/v1/sections?select=id,slug,title\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\" -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\")",
+      "Bash(curl -s \"https://aiwhkwizqobvavgrcqbb.supabase.co/rest/v1/subsections?select=id,slug,title,section_id\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\" -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\")",
+      "Bash(curl -s \"https://aiwhkwizqobvavgrcqbb.supabase.co/rest/v1/content_pages?select=id,slug,title\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\" -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd2hrd2l6cW9idmF2Z3JjcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzQzNzgsImV4cCI6MjA5MTQxMDM3OH0.yfyOJ-Fy4jExUM9dRUy5p8La6j_zE8aDc6RDY1ChA0k\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 28424)",
+      "Bash(taskkill //F //PID 2304)",
+      "Bash(REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --android --clear)",
+      "Bash(cp \"C:\\\\Users\\\\Jbl\\\\Downloads\\\\rear-view-of-muslim-with-shaved-head-standing-befo-2026-03-05-11-44-05-utc.jpg\" \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\Hajj-umrah\\\\assets\\\\images\\\\kaaba-hajj.jpg\")",
+      "Bash(cp \"C:\\\\Users\\\\Jbl\\\\Downloads\\\\pilgrims-in-kaaba-in-macca-al-haram-umrah-social-2026-03-24-07-49-22-utc.jpg\" \"C:\\\\Users\\\\Jbl\\\\Desktop\\\\Claude\\\\Hajj-umrah\\\\assets\\\\images\\\\kaaba-umrah.jpg\")",
+      "Read(//c/Users/Jbl/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/069a4615-b576-4872-bfe2-02319e525005/af8de6ad-b724-4934-bfc2-47c8297f61cb/skills/pdf/**)",
+      "Bash(pip install:*)",
+      "Bash(python -c ':*)",
+      "Bash(eas:*)",
+      "Bash(npx eas-cli:*)",
+      "Bash(eas-cli:*)",
+      "Bash(npm install -g eas-cli)"
+    ]
+  }
+}

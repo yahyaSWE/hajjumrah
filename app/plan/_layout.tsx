@@ -21,7 +21,7 @@ export default function PlanLayout() {
         headerStyle: { backgroundColor: COLORS.background },
         headerTintColor: COLORS.text,
         headerTitleStyle: {
-          fontFamily: 'Inter-Variable',
+          fontFamily: 'Inter-Regular',
           fontWeight: '600',
           fontSize: 18,
           color: COLORS.text,

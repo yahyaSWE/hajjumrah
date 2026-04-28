@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     color: COLORS.text,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
     fontSize: 16,
   },
   errorContainer: {

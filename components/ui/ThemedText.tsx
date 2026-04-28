@@ -41,7 +41,7 @@ const cardColors: Partial<Record<string, string>> = {
 const styles = StyleSheet.create({
   base: {
     color: COLORS.text,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
   },
   h1: {
     fontSize: FONT_SIZES.h1,

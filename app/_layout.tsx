@@ -16,7 +16,9 @@ export default function RootLayout() {
   const [loaded, error] = useFonts({
     'Amiri-Regular': require('../assets/fonts/Amiri-Regular.ttf'),
     'Amiri-Bold': require('../assets/fonts/Amiri-Bold.ttf'),
-    'Inter-Variable': require('../assets/fonts/Inter-Variable.ttf'),
+    'Inter-Regular': require('../assets/fonts/Inter-Regular.ttf'),
+    'Inter-SemiBold': require('../assets/fonts/Inter-SemiBold.ttf'),
+    'Inter-Bold': require('../assets/fonts/Inter-Bold.ttf'),
   });
 
   useEffect(() => {
@@ -43,7 +45,7 @@ export default function RootLayout() {
             headerStyle: { backgroundColor: COLORS.background },
             headerTintColor: COLORS.text,
             headerTitleStyle: {
-              fontFamily: 'Inter-Variable',
+              fontFamily: 'Inter-Regular',
               fontWeight: '600',
               fontSize: 18,
               color: COLORS.text,

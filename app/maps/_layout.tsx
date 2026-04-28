@@ -7,7 +7,7 @@ export default function MapsLayout() {
       screenOptions={{
         headerStyle: { backgroundColor: COLORS.background },
         headerTintColor: COLORS.text,
-        headerTitleStyle: { fontFamily: 'Inter-Variable', fontWeight: '600', fontSize: 18, color: COLORS.text },
+        headerTitleStyle: { fontFamily: 'Inter-Regular', fontWeight: '600', fontSize: 18, color: COLORS.text },
         headerShadowVisible: false,
         contentStyle: { backgroundColor: COLORS.background },
       }}

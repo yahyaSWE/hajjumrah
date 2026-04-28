@@ -37,10 +37,10 @@ export const COLORS = {
 export const FONTS = {
   arabic: 'Amiri-Regular',
   arabicBold: 'Amiri-Bold',
-  regular: 'Inter-Variable',
-  medium: 'Inter-Variable',
-  semiBold: 'Inter-Variable',
-  bold: 'Inter-Variable',
+  regular: 'Inter-Regular',
+  medium: 'Inter-Regular',
+  semiBold: 'Inter-SemiBold',
+  bold: 'Inter-Bold',
 } as const;
 
 export const FONT_SIZES = {

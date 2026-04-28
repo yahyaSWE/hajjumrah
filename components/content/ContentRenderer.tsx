@@ -34,7 +34,7 @@ const markdownStyles = StyleSheet.create({
     color: COLORS.text,
     fontSize: FONT_SIZES.body,
     lineHeight: FONT_SIZES.body * 1.7,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
   },
   heading1: {
     fontSize: FONT_SIZES.h1,
@@ -42,7 +42,7 @@ const markdownStyles = StyleSheet.create({
     color: COLORS.text,
     marginTop: SPACING.lg,
     marginBottom: SPACING.md,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
   },
   heading2: {
     fontSize: FONT_SIZES.h2,
@@ -50,7 +50,7 @@ const markdownStyles = StyleSheet.create({
     color: COLORS.accent,
     marginTop: SPACING.lg,
     marginBottom: SPACING.sm,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
   },
   heading3: {
     fontSize: FONT_SIZES.h3,
@@ -58,7 +58,7 @@ const markdownStyles = StyleSheet.create({
     color: COLORS.text,
     marginTop: SPACING.md,
     marginBottom: SPACING.sm,
-    fontFamily: 'Inter-Variable',
+    fontFamily: 'Inter-Regular',
   },
   strong: {
     fontWeight: '600' as const,
